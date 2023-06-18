@@ -58,3 +58,9 @@ print(mylist)
 xlist =[n**2 for n in range(4)]
 print(xlist)
 
+#break and continue
+print("test 1")
+for digit in range(1,100):
+    if digit==45:
+        break
+    print(digit,end=",")
