@@ -55,7 +55,7 @@ print(f"Sum is {sum}")
 #利用for 跟 while 寫出相同結果
 tuition = 50000
 year = 0
-while tuition < 60000: # 用while寫較簡潔 當tuition<60000時，持續跑內容直到大於或等於60000
+while tuition < 60000: # 用while寫較簡潔 設定條件式 [當tuition<60000] 時，持續跑內容直到大於或等於60000
     tuition = tuition * 1.05
     year += 1
 print(f"after {year} years, the tuition fee is more than 60000")
